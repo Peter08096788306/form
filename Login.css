@@ -14,7 +14,7 @@ Header {
 }
 .Head {
     background-color: whitesmoke;
-    padding-bottom: 20rem;
+    /* padding-bottom: 20rem; */
 }
 .Head h2{
     font-weight: 300;
@@ -27,16 +27,18 @@ Header {
     width: 80%;
     background-color: #FFFF;
     border: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
     border-radius: 5px;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     margin: auto;
+}
+.gin {
+    /* background: yellow; */
+    /* margin-top: -4rem; */
 }
 .Gray-color {
     background-color: whitesmoke;
-    /* padding-bottom: 0.7rem; */
-    
-    /* margin-bottom: 1rem; */
-    /* background-color: red; */
+    margin-bottom: 1rem;
     border-bottom: 1px solid gainsboro;
 }
 .display {
@@ -68,6 +70,13 @@ Header {
     height: 25px;
     border: 1px solid gray;
     border-radius: 20px;
+    box-shadow: 0px 0px
+                3px 3px  peru;
+}
+.create--account {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
 }
 .empty1 {
     display: none;
@@ -79,13 +88,15 @@ Header {
     border-radius: 20px;
 }
 .empty2 {
-    /* display: none; */
     width: 13px;
     height: 13px;
     margin: auto;
     margin-top: 0.3rem;
     background-color: peru;
     border-radius: 20px;
+}
+.none {
+    /* display: none; */
 }
 label {
     margin-left: 1rem;
@@ -180,8 +191,44 @@ label.top {
     font-size: 14px;
     /* width: 125%; */
 }
-
-
+.footer {
+    background: #1b1a1a;
+    color: #FFFF;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+}
+.com, .english a, .united a {
+    display: flex;
+    color: #FFFF;
+    justify-content: center;
+    text-decoration: none;
+}
+.english a {
+    /* display: flex; */
+}
+.united a {
+    /* text-decoration: none; */
+}
+.english p {
+    margin-left: 1rem;
+}
+.united {
+    margin-left: 1.7rem;
+}
+.united p {
+    margin-left: 0.7rem;
+}
+.center a, .small  {
+    color: #FFFF;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.use {
+    margin-left: 1rem;
+}
 
 
 
