@@ -4,25 +4,29 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 Header {
     background-color: #000;
     height: 52px;
 }
+
 .img img {
     padding: 1rem;
     width: 20%;
 }
+
 .Head {
     background-color: whitesmoke;
-    /* padding-bottom: 20rem; */
 }
-.Head h2{
+
+.Head h2 {
     font-weight: 300;
     padding-top: 2rem;
     width: 80%;
     margin: auto;
     margin-bottom: 0.4rem;
 }
+
 .Login--form {
     width: 80%;
     background-color: #FFFF;
@@ -32,52 +36,52 @@ Header {
     padding-bottom: 1rem;
     margin: auto;
 }
-.gin {
-    /* background: yellow; */
-    /* margin-top: -4rem; */
-}
 .Gray-color {
     background-color: whitesmoke;
     margin-bottom: 1rem;
     border-bottom: 1px solid gainsboro;
 }
+
 .display {
     cursor: pointer;
     display: flex;
     align-items: center;
-    /* gap: 1rem; */
     padding: 0.5rem;
     padding-left: 1rem;
 }
+
 .display p {
     margin-left: 1.5rem;
 }
+
 .display2 p {
     margin-left: 1.5rem;
 }
+
 .display2 {
     display: flex;
     align-items: center;
     cursor: pointer;
-    /* gap: 1rem; */
     padding: 0.5rem;
     margin-top: 0.5rem;
     padding-left: 1rem;
 }
+
 .empty {
     background: white;
     width: 25px;
     height: 25px;
     border: 1px solid gray;
     border-radius: 20px;
-    box-shadow: 0px 0px
-                3px 3px  peru;
+    box-shadow: 0px 0px 3px 3px peru;
 }
+
 .create--account {
     padding-left: 1rem;
     margin-top: 0.5rem;
     padding-bottom: 1rem;
 }
+
 .empty1 {
     display: none;
     width: 13px;
@@ -87,6 +91,7 @@ Header {
     background-color: peru;
     border-radius: 20px;
 }
+
 .empty2 {
     width: 13px;
     height: 13px;
@@ -95,46 +100,53 @@ Header {
     background-color: peru;
     border-radius: 20px;
 }
+
 .none {
     /* display: none; */
 }
+
 label {
     margin-left: 1rem;
 }
+
 label.top {
     margin-top: 1rem;
 
 }
- input {
+
+input {
     margin-left: 1rem;
     width: 90%;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
 }
+
 .form2 {
     margin-top: 1rem;
 }
- .form {
+
+.form {
     padding-top: 1rem;
     display: none;
 }
+
 .form.open {
     display: block;
 }
+
 .change {
     background: #FFFF;
-}
-.red {
-    /* background: red; */
 }
 
 .gray {
     background-color: gainsboro;
 }
+
 .button {
     text-align: center;
 }
+
 .button button {
     background-color: rgb(233, 176, 70);
     border: 1px solid gray;
@@ -146,31 +158,33 @@ label.top {
     padding: 1rem;
     margin-top: 0.5rem;
 }
+
 .check {
     display: flex;
     align-items: center;
     gap: 1rem;
     width: 100%;
 }
+
 .check p {
     margin-top: -0.5rem;
 }
-.text {
-    /* margin: 1rem; */
-    position: relative;
-}
+
 .para a {
     text-decoration: none;
 }
-.para  {
+
+.para {
     text-decoration: none;
     padding-left: 1rem;
     margin-top: 1rem;
     padding-bottom: 1.5rem;
 }
+
 .text a {
     text-decoration: none;
 }
+
 .icon {
     margin-top: 1.5rem;
     display: flex;
@@ -178,19 +192,21 @@ label.top {
     padding-left: 1rem;
     margin-top: -0.4rem;
 }
+
 .buying {
     width: 90%;
     margin: auto;
     border-top: 1px solid gainsboro;
     padding: 0.4rem;
 }
+
 .buying p {
     text-align: center;
     margin-top: -1rem;
     color: gray;
     font-size: 14px;
-    /* width: 125%; */
 }
+
 .footer {
     background: #1b1a1a;
     color: #FFFF;
@@ -198,36 +214,56 @@ label.top {
     padding-bottom: 2rem;
     padding-top: 3rem;
 }
-.com, .english a, .united a {
+
+.com,
+.english a,
+.united a {
     display: flex;
     color: #FFFF;
     justify-content: center;
     text-decoration: none;
 }
-.english a {
-    /* display: flex; */
-}
-.united a {
-    /* text-decoration: none; */
-}
+
 .english p {
     margin-left: 1rem;
 }
+
 .united {
     margin-left: 1.7rem;
 }
+
 .united p {
     margin-left: 0.7rem;
 }
-.center a, .small  {
+
+.center {
+    margin-top: 2rem;
+}
+
+.Use a {
+    text-align: center;
     color: #FFFF;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
+}
+.ads a {
+    text-align: center;
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.privacy a {
+    text-align: center;
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.use {
     margin-top: 1rem;
 }
-.use {
-    margin-left: 1rem;
+
+.aff {
+    text-align: center;
+    margin-top: 1rem;
 }
 
 
@@ -237,21 +273,31 @@ label.top {
     .Login--form {
         width: 55%;
         background-color: #FFFF;
-        /* background-color: red; */
         border: 1px solid gainsboro;
         border-radius: 5px;
-        padding-bottom: 10rem;
+        padding-bottom: 1rem;
         margin: auto;
     }
-    .Head h2{
+
+    .Head h2 {
         font-weight: 300;
         padding-top: 2rem;
         width: 55%;
         margin-bottom: 0.4rem;
     }
+
     .img img {
         padding: 1rem;
         width: 10%;
+    }
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .use {
+        margin-top: 0rem;
+        margin-left: 2rem;
     }
 }
 
@@ -261,15 +307,17 @@ label.top {
         background-color: #FFFF;
         border: 1px solid gainsboro;
         border-radius: 5px;
-        padding-bottom: 10rem;
+        padding-bottom: 1rem;
         margin: auto;
     }
-    .Head h2{
+
+    .Head h2 {
         font-weight: 300;
         padding-top: 2rem;
         width: 35%;
         margin-bottom: 0.4rem;
     }
+
     .img img {
         padding: 1rem;
         width: 7%;

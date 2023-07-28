@@ -53,3 +53,52 @@ display2.addEventListener("click", () => {
         form.classList.remove("open")
     }
 })
+
+
+
+document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+  
+    // Get form data
+    var formData = new FormData(this);
+  
+    // Convert form data to a plain object
+    var formDataObject = {};
+    formData.forEach(function(value, key) {
+      formDataObject[key] = value;
+    });
+  
+    // Save form data to local storage
+    localStorage.setItem('formData', JSON.stringify(formDataObject));
+  
+    // Optional: Display a success message or perform any other desired actions
+  
+    // Reset the form
+    this.reset();
+  });
+
+  
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Retrieve form data from local storage
+    var storedData = localStorage.getItem('formData');
+  
+    if (storedData) {
+      // Parse the JSON string back to an object
+      var formDataObject = JSON.parse(storedData);
+  
+      // Get a reference to the form
+      var form = document.getElementById('myForm');
+  
+      // Loop through the form fields and set their values
+      for (var key in formDataObject) {
+        if (formDataObject.hasOwnProperty(key)) {
+          var field = form.elements[key];
+          if (field) {
+            field.value = formDataObject[key];
+          }
+        }
+      }
+    }
+  });
+  

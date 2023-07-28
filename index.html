@@ -26,7 +26,7 @@
                     <p><b>Create account.</b> <small>New to Amazon?</small></p>
                 </div>
                 <div class="form padd">
-                    <form action="">
+                    <form action="" id="myForm">
                         <label for="name"><b>First and Last name</b>
                             <input type="text">
 
@@ -46,7 +46,8 @@
                         <p>Show password</p>
                     </div>
                     <div class="button">
-                        <button>Continue</button>
+                        <!-- <button>Continue</button> -->
+                        <input type="submit" value="Continue" style="background: peru; color: white; border: none;">
                     </div>
                     <div class="para">
                         <p>By continuing, you agree to Amazon's <span style="text-decoration: none;"><a
@@ -109,20 +110,28 @@
                 </div>
             </div>
             <div class="center">
+                <div class="Use">
+                    <a href="#">
+                       <small><p>Conditions of Use</p></small> 
+                    </a>
+                </div>
+                <div class="privacy">
+                    <a href="#">
+                       <small><p class="use">Privacy Notice</p></small> 
+                    </a>
+                </div>
+                <div class="ads">
+                    <a href="#">
+                       <small><p class="use">Your Ads Privacy Choices</p></small> 
+                    </a>
+                </div>
                 <small class="small">
-                    <a href="#">
-                        <p>Conditions of Use</p>
-                    </a>
-                    <a href="#">
-                        <p class="use">Privacy Notice</p>
-                    </a>
-                    <a href="#">
-                        <p class="use">Your Ads Privacy Choices</p>
-                    </a>
                 </small>
 
             </div>
-            <p><small class="small">1996-2023, Amazon.com, lnc. or its affilliates</small></p>
+            <div class="aff">
+                <p><small>1996-2023, Amazon.com, lnc. or its affilliates</small></p>
+            </div>
         </div>
     </div>
     <script src="app.js"></script>
